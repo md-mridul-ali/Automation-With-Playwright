@@ -8,7 +8,7 @@ test('Locators', async ({ page }) =>{
     
     //click login link using "Xpath"
     // await page.locator('/html/body/div/form/a').click()
-    await page.getByRole('link', {name: 'Already have an account? Login'}).click()
+    // await page.getByRole('link', {name: 'Already have an account? Login'}).click()
 
     //provide user email using "Property"
     // await page.locator('Email').fill('sakira@gmail.com')
